@@ -1,6 +1,6 @@
 import { ResetAction } from './../contador.actions';
 import { Store } from '@ngrx/store';
-import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { AppState } from 'src/app/app.reducers';
 
 @Component({
